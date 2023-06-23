@@ -38,7 +38,7 @@ class ResidualBlock(nn.Module):
         return out
     
 class NeuralNetwork(nn.Module):
-    # ResNet
+    # 使用ResNet
     def __init__(self, block, layers, num_classes=10):
         super(NeuralNetwork, self).__init__()
         self.in_channels = 16
